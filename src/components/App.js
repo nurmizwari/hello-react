@@ -11,10 +11,12 @@ import Handle from "./Handle";
 import State from "./State";
 import KelasState from "./KelasState";
 import Onchange1 from "./Onchange1";
+import Form from "./Form";
 
 function App() {
   return (
     <div>
+      <Form />
       <Onchange1 nama="nur mizwari" />
       <KelasState />
       <State />
